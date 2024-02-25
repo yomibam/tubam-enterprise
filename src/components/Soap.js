@@ -19,7 +19,7 @@ export default function Soap() {
       <div
         key={soap.id}
         onClick={HandleSoapClick(soap)}
-        className="flex flex-col items-center"
+        className="flex flex-col items-center cursor-pointer"
       >
         <div className="w-[150px] h-[150px] overflow-hidden bg-white lap:w-[300px] lap:h-[300px]">
           <img

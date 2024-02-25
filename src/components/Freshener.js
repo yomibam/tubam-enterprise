@@ -1,5 +1,5 @@
 import React from "react";
-import freshenerData from "../data/soapData";
+import airFreshenerData from "../data/airFreshenerData";
 
 export default function Freshener() {
   const HandleFreshenerClick = (freshenerInfo) => {
@@ -15,11 +15,11 @@ export default function Freshener() {
   };
 
   const DisplayFreshener = () => {
-    return freshenerData.map((freshener) => (
+    return airFreshenerData.map((freshener) => (
       <div
         key={freshener.id}
         onClick={HandleFreshenerClick(freshener)}
-        className="flex flex-col items-center"
+        className="flex flex-col items-center cursor-pointer"
       >
         <div className="w-[150px] h-[150px] overflow-hidden bg-white lap:w-[300px] lap:h-[300px]">
           <img

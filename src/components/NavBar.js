@@ -18,9 +18,9 @@ export default function NavBar() {
       <img src={siteLogo} alt="site logo" className="w-[100px]" />
       <button
         onClick={HandleContactClick()}
-        className="hidden text-sm font-bold text-white border bg-primary rounded-[10px] px-[15px] py-[10px] lap:block"
+        className="cursor-pointer hidden text-sm font-bold text-white border bg-primary rounded-[10px] px-[15px] py-[10px] lap:block"
       >
-        Contact
+        Contact Us
       </button>
     </div>
   );

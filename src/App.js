@@ -5,7 +5,7 @@ import Freshener from "./components/Freshener";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Reviews from "./components/Reviews";
-import Sanitizer from "./components/Sanitizer";
+// import Sanitizer from "./components/Sanitizer";
 import Soap from "./components/Soap";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Hero />
       <Soap />
       <Freshener />
-      <Sanitizer />
+      {/* <Sanitizer /> */}
       <Reviews />
       <About />
       <Footer />

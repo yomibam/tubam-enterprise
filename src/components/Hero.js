@@ -15,16 +15,16 @@ export default function Hero() {
   };
   return (
     <div className="flex flex-col items-center gap-7 px-5 pb-[70px] lap:flex-row lap:px-[100px]">
-      <div className="flex flex-col items-center gap-7 px-8 text-center lap:items-start ">
-        <h1 className="font-bold text-lg lap:text-xlg lap:text-left">
+      <div className="flex flex-col items-center px-8 text-center gap-7 lap:items-start ">
+        <h1 className="text-lg font-bold lap:text-xlg lap:text-left">
           Happy Home
         </h1>
-        <h2 className="text-center text-sm lap:text-xl lap:text-left">
+        <h2 className="text-sm text-center lap:text-xl lap:text-left">
           The number one multipurpose soap for all Nigerian homes.
         </h2>
         <button
           onClick={HandleOrderClick()}
-          className="text-sm font-bold text-white border bg-primary rounded-[10px] px-[15px] py-[10px] lap:text-xl"
+          className="cursor-pointer text-sm font-bold text-white border bg-primary rounded-[10px] px-[15px] py-[10px] lap:text-xl"
         >
           Order Now
         </button>

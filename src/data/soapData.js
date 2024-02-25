@@ -23,7 +23,7 @@ const SoapData = [
   {
     id: 4,
     name: "Happy Liquid Soap",
-    volume: "10litres",
+    volume: "4litres",
     price: 10000,
     img_url: "xlarge.png",
   },

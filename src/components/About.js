@@ -10,14 +10,15 @@ export default function About() {
       <div className="bg-secondary p-[20px] lap:w-full lap:px-[50px] py-[30px]">
         <h3 className="text-base font-bold lap:text-xxl">About us</h3>
         <p className="lap:text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-          eleifend lectus, in vestibulum nisi. Maecenas odio nisl, sodales quis
-          nulla non, rutrum malesuada mauris. Morbi justo eros, pulvinar id
-          molestie eleifend, lobortis at orci. Curabitur molestie fermentum
-          ultrices. Sed quis cursus massa, in dictum massa. Donec quis vehicula
-          sem. Ut non libero nulla. Nam nec condimentum justo. Cras id nisl sit
-          amet elit suscipit ornare ut in mi. Nunc et tincidunt mauris. Sed
-          rhoncus sem eget fermentum aliquam.
+          Tubams Enterprise is a leading manufacturer based in Ogun State,
+          Nigeria, specializing in home and office cleaning, and care solutions.
+          Tubams produces a range of high-quality products including liquid
+          soaps, hair fresheners, hand sanitizers, and bleach. Our mission is to
+          provide effective and affordable cleaning and care solutions that meet
+          the diverse needs of households and businesses. Backed by a team of
+          skilled professionals and state-of-the-art facilities, Tubams
+          Enterprise is dedicated to ensuring cleanliness and hygiene in homes
+          and workplaces across Nigeria.
         </p>
       </div>
       <div className="flex flex-col gap-[15px] px-[20px] py-[30px] lap:w-full">
